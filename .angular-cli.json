@@ -1,0 +1,27 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "angular-module-starter"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "main": "main.ts",
+      "test": "spec/test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json"
+    }
+  ],
+  "lint": [
+    { "project": "src/tsconfig.app.json" },
+    { "project": "src/tsconfig.spec.json" }
+  ],
+  "test": {
+    "karma": { "config": "./karma.conf.js" }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}
