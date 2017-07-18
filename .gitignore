@@ -42,4 +42,5 @@ testem.log
 Thumbs.db
 
 # Cinergix
+.editorconfig
 tslint.json
