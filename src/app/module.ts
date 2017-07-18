@@ -5,10 +5,8 @@ import { NgModule } from '@angular/core';
   imports: [],
   exports: [],
   providers: [],
-  bootstrap: []
+  bootstrap: [],
 })
 export class AngularModuleStarter {
-  static add(x: number, y: number): number {
-    return x + y;
-  }
+  // ...
 }
