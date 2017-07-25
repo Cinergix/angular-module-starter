@@ -5,12 +5,12 @@
   },
   "apps": [
     {
-      "root": "src",
+      "root": ".",
       "outDir": "dist",
-      "main": "main.ts",
-      "test": "spec/test.ts",
-      "tsconfig": "tsconfig.app.json",
-      "testTsconfig": "tsconfig.spec.json"
+      "main": "src/main.ts",
+      "test": "test/test.ts",
+      "tsconfig": "src/tsconfig.app.json",
+      "testTsconfig": "test/tsconfig.spec.json"
     }
   ],
   "lint": [
