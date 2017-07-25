@@ -9,13 +9,13 @@
       "outDir": "dist",
       "main": "--required--",
       "test": "test/test.ts",
-      "tsconfig": "src/tsconfig.app.json",
-      "testTsconfig": "test/tsconfig.spec.json"
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json"
     }
   ],
   "lint": [
-    { "project": "src/tsconfig.app.json" },
-    { "project": "src/tsconfig.spec.json" }
+    { "project": "tsconfig.app.json" },
+    { "project": "tsconfig.spec.json" }
   ],
   "test": {
     "karma": { "config": "./karma.conf.js" }
