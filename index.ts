@@ -1,1 +1,1 @@
-export { AngularModuleStarter } from './src/app/module';
+export { AngularModuleStarter } from './src/module';
