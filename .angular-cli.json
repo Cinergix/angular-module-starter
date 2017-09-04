@@ -18,6 +18,9 @@
     { "project": "tsconfig.spec.json" }
   ],
   "test": {
+    "codeCoverage": {
+      "exclude": ["**/*.mock.ts"]
+    },
     "karma": { "config": "./karma.conf.js" }
   },
   "defaults": {
