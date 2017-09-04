@@ -19,7 +19,7 @@
   ],
   "test": {
     "codeCoverage": {
-      "exclude": ["**/*.mock.ts"]
+      "exclude": ["**/*.mock.ts", "test/test.ts"]
     },
     "karma": { "config": "./karma.conf.js" }
   },
